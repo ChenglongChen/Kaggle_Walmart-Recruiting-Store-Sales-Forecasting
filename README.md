@@ -2,7 +2,7 @@
 
 This is the R code I used to make my submission to Kaggle's Walmart Recruiting - Store Sales Forecasting competition.
 
-This code uses the observation that for the same dept, the weekly sales are very similar despite of different magnitudes across all the stores. So, it seems that the same dept sales the same kind of products? To see this, use file <visualize_weekly_sales.R>
+This code uses the observation that for the same dept, the weekly sales are very similar despite of different magnitudes across all the stores. To see this, use file <visualize_weekly_sales.R>
 
 I generates a few features using <preprocess_data_v1.R>/<preprocess_data_v2.R> and then train a gbm to model the ts data using <train_gbm_cross_store_v1.R>/<train_gbm_cross_store_v2.R> .
 
